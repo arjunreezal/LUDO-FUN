@@ -1,0 +1,23 @@
+name: ludo
+description: "LUDO - a premium board and card game platform. Classic Ludo first."
+publish_to: 'none'
+
+# Keep the version name in step with appVersion in
+# lib/features/settings/settings_screen.dart.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
